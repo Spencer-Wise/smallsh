@@ -1,9 +1,3 @@
-/*
-	Written by Spencer Wise. Assignment 3 for CS344 - Creates a small shell
-	that handles a few built-in commands (namely exit, status, and cd), otherwise
-	forks off children processess and calls execvp() to handle other commands.
-*/
-
 # include <dirent.h>
 # include <fcntl.h>
 # include <signal.h>
